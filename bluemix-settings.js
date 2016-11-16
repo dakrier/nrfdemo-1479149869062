@@ -50,9 +50,9 @@ var settings = module.exports = {
     httpStatic: path.join(__dirname,"public"),
 
     functionGlobalContext: {
-    	moments: require('moments'),
-    	momentstz: require('moment-timezone'),
-        process : process; 
+    	moment: require('moment'),
+    	momenttz: require('moment-timezone'),
+    	process : process
     },
 
     storageModule: require("./couchstorage")
