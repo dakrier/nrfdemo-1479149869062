@@ -52,7 +52,7 @@ var settings = module.exports = {
     functionGlobalContext: {
     	moments: require('moments'),
     	momentstz: require('moment-timezone'),
-    	VCAP_SERVICES: JSON.parse(process.env.VCAP_SERVICES)
+        process : process; 
     },
 
     storageModule: require("./couchstorage")
