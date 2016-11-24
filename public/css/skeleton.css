@@ -213,12 +213,6 @@ input[type="button"].button-primary {
   color: #FFF;
   background-color: #33C3F0;
   border-color: #33C3F0; }
- input[type="button"].button-primary2 {
-  color: #FFF;
-  background-color: #33C3F0;
-  border-color: #33C3F0; 
-  width: 100%;
-  box-sizing: border-box;}
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -377,6 +371,11 @@ form {
 .u-full-width {
   width: 100%;
   box-sizing: border-box; }
+.u-full-width2 {
+  width: 100%;
+  color: #FFF;
+  background-color: #33C3F0;
+  border-color: #33C3F0; }
 .u-max-full-width {
   max-width: 100%;
   box-sizing: border-box; }
