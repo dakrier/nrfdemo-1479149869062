@@ -52,8 +52,7 @@ var settings = module.exports = {
     functionGlobalContext: {
     	moment: require('moment'),
     	momenttz: require('moment-timezone'),
-    	process : process,
-    	d3 : require('d3')
+    	process : process
     },
 
     storageModule: require("./couchstorage")
